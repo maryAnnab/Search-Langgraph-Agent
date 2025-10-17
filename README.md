@@ -8,7 +8,7 @@
 
 > ⚠️ **Early Stage Project** - This project is in active early development. Features and APIs may change significantly.
 
-An advanced web search agent built with LangGraph and LangChain, designed to perform intelligent web searches and process information using AI-powered agents. This project explores the capabilities of LangGraph for building stateful, multi-agent workflows with web search integration[web:22][web:26].
+An advanced web search agent built with LangGraph and LangChain, designed to perform intelligent web searches and process information using AI-powered agents. This project explores the capabilities of LangGraph for building stateful, multi-agent workflows with web search integration.
 
 ## ✨ Features
 
@@ -62,7 +62,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 Create virtual environment and install dependencies
 uv venv
 source .venv/bin/activate # On Windows: .venv\Scripts\activate
-uv pip install -e .
+uv pip install -e 
 
 
 3. **Set up environment variables**
@@ -105,7 +105,7 @@ python examples/custom_config.py
 
 ## 🔧 Configuration
 
-Create a `config.yaml` file to customize agent behavior[web:24][web:32]:
+Create a `config.yaml` file to customize agent behavior:
 
 agent:
 max_iterations: 5
@@ -154,7 +154,7 @@ ruff check src/
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a PR[web:2][web:15].
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a PR.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -169,7 +169,6 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 - [ ] Add streaming responses
 - [ ] Create web UI with Gradio/Streamlit
 - [ ] Add multi-language support
-- [ ] Implement RAG capabilities
 - [ ] Add evaluation framework
 - [ ] Deploy to LangGraph Cloud
 
@@ -179,9 +178,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Built with [LangChain](https://www.langchain.com/) and [LangGraph](https://langchain-ai.github.io/langgraph/)[web:22][web:26]
+- Built with [LangChain](https://www.langchain.com/) and [LangGraph](https://langchain-ai.github.io/langgraph/)
 - Search powered by [Bright Data](https://brightdata.com/)
-- Inspired by the LangGraph agent patterns and examples[web:27][web:30]
+- Inspired by the LangGraph agent patterns and examples
 
 ## 📧 Contact
 
@@ -191,3 +190,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ If you find this project useful, please consider giving it a star!
+
