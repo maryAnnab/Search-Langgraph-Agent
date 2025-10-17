@@ -1,10 +1,199 @@
-# Python-generated files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*$py.class
 
-# Virtual environments
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.envrc
 .venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Ruff stuff
+.ruff_cache/
+
+# UV package manager
+uv.lock
+.uv/
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Environment variables and secrets
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.toml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# LangGraph checkpointer files
+*.db
+checkpoints/
+langgraph_checkpoint*.sqlite
+langgraph_checkpoint*.db
+checkpoint.sqlite
+checkpoint.db
+.langgraph.db
+
+# LangGraph store files
+langgraph_store/
+store.db
+
+# LangChain cache files
+.langchain.db
+langchain.cache
+langchain_cache/
+
+# Bright Data cache and session files
+bright_data_cache/
+brightdata_cache/
+scraping_cache/
+*.bright_data
+proxy_sessions/
+
+# API Keys - dodatkowe bezpieczeństwo
+*_API_KEY*
+ANTHROPIC_API_KEY
+OPENAI_API_KEY
+BRIGHT_DATA_API_KEY
+.env.production
+.env.development
+credentials.json
+config.json
+secrets/
+
+# Pydantic generated files
+__pydantic_self__
+.pydantic_cache/
+validation_cache/
+
+# Logs and temporary data
+logs/
+*.log.*
+search_results/
+scraping_results/
+data/raw/
+data/temp/
+tmp/
+temp/
+*.tmp
